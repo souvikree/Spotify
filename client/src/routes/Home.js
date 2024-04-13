@@ -2,6 +2,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import spotify_logo from "../assets/images/spotify_logo_white.svg";
 import IconText from "../components/shared/IconText";
 import TextHover from "../components/shared/TextHover";
+import { Link } from "react-router-dom";
 
 const HomeComponent = () => {
   return (
@@ -54,9 +55,13 @@ const HomeComponent = () => {
               {/* <div className="h-1/2 border-r border-white items-center"></div> */}
             </div>
             <div className="w-2/5 flex justify-around h-full items-center">
-              <TextHover displayText="Sign Up" />
+              <div>
+                <Link to="/signup">
+                  <TextHover displayText="Sign Up" />{" "}
+                </Link>
+              </div>
               <div className="bg-white h-2/3 px-8 flex items-center  hover:scale-125 justify-center rounded-full font-semibold">
-                Log In
+                <Link to="/login"> Log In </Link>
               </div>
             </div>
           </div>
