@@ -47,15 +47,15 @@ const HomeComponent = () => {
                 <TextHover displayText="Support" />
               </div>
               {/* <TextHover displayText="Install" /> */}
-              <div className="bg-black  text-white text-lg h-2/3 px-6 flex items-center justify-center rounded-full font-semibold">
+              <div className="bg-black  text-white text-lg h-2/3 px-6  hover:scale-125 flex items-center justify-center rounded-full font-semibold">
                 <Icon icon="grommet-icons:install-option" />
-                <div className="ml-1 text-lg font-semibold ">Install</div>
+                <div className="ml-1 text-lg font-semibold">Install</div>
               </div>
               {/* <div className="h-1/2 border-r border-white items-center"></div> */}
             </div>
             <div className="w-2/5 flex justify-around h-full items-center">
               <TextHover displayText="Sign Up" />
-              <div className="bg-white h-2/3 px-8 flex items-center justify-center rounded-full font-semibold">
+              <div className="bg-white h-2/3 px-8 flex items-center  hover:scale-125 justify-center rounded-full font-semibold">
                 Log In
               </div>
             </div>

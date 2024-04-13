@@ -11,6 +11,9 @@ module.exports = {
       },
       backgroundColor:{
         "app-lightblack": "#121212"
+      },
+      scale: {
+        '125': '0.9',
       }
     },
   },
