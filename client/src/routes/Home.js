@@ -94,7 +94,7 @@ const HomeComponent = () => {
         </div>
       </div>
 
-      <div className="h-full w-4/5 bg-app-lightblack overflow-auto">
+      <div className="h-full w-full bg-app-lightblack overflow-auto">
         <div className="navbar w-full h-1/10 app-lightblack flex items-center justify-end">
           <div className="w-1/2 flex h-full">
             <div className="w-3/5 flex justify-around h-full items-center">
@@ -143,7 +143,7 @@ const HomeComponent = () => {
 const PlaylistView = ({titleText, cardsData}) =>{
    return <div className="text-white mt-8">
     <div className="text-2xl font-semibold mb-5">{titleText}</div>
-    <div className="w-full flex justify-between space-x-4">
+    <div className="w-full flex justify-between space-x-5">
       {
         cardsData.map((item) => {
           return <Card title={item.title} description={item.description} imgUrl={item.imgUrl}/>

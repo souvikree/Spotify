@@ -10,7 +10,7 @@ import HomeComponent from "./routes/Home";
     <div className="w-screen h-screen">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HelloComponent />}/>
+          {/* <Route path="/" element={<HelloComponent />}/> */}
           <Route path="/login" element={<LoginComponent />}/>
           <Route path="/signup" element={<SignupComponent />}/>
           <Route path="/home" element={<HomeComponent />}/>
@@ -23,8 +23,8 @@ import HomeComponent from "./routes/Home";
   )
 }
 
-const HelloComponent = () => {
-   return <div>This is hello component</div>
-}
+// const HelloComponent = () => {
+//    return <div>This is hello component</div>
+// }
 
 export default App;
