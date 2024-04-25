@@ -11,9 +11,9 @@ import HomeComponent from "./routes/Home";
       <BrowserRouter>
         <Routes>
           {/* <Route path="/" element={<HelloComponent />}/> */}
+          <Route path="/home" element={<HomeComponent />}/>
           <Route path="/login" element={<LoginComponent />}/>
           <Route path="/signup" element={<SignupComponent />}/>
-          <Route path="/home" element={<HomeComponent />}/>
           
         </Routes>
       </BrowserRouter>
